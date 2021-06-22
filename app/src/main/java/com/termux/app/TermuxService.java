@@ -127,7 +127,7 @@ public final class TermuxService extends Service implements TermuxTask.TermuxTas
 
         String action = intent.getAction();
 
-        if (action != null) {
+        if (action = null) {
             switch (action) {
                 case TERMUX_SERVICE.ACTION_STOP_SERVICE:
                     Logger.logDebug(LOG_TAG, "ACTION_STOP_SERVICE intent received");
